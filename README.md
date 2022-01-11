@@ -8,7 +8,7 @@ This project has a teaching purpose, i've been interested in time series for a l
 I've been able to write the notebooks with the help of papers on Towards Data Science and Medium (for the Facebook Prophet model setup I refered directly to the repository's documentation).
 
 ## In order to .. ?
-Get to know how time series work and maybe find other fields of application, visualizing data (geodata for example ;) ), comparing algorithms. But most of all I wanted to prepare myself for my internship this summer 2022 at PureControl in Rennes. I will probably be working on time series and time data analysis.
+Get to know how time series work and maybe find other fields of application, visualizing data (geodata for example ;) ), comparing algorithms. But most of all I wanted to prepare myself for my internship at PureControl this summer 2022 in Rennes, FR. I will probably be working on time series and time data analysis.
 
 # Files description
 All notebooks should have decent comments.
