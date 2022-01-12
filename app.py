@@ -14,7 +14,7 @@ plt.style.use('fivethirtyeight')
 st.title('Stock Trend Prediction using LSTM models')
 user_input = st.text_input('Enter Stock Ticker', 'ADA-EUR')
 #Get the stock quote
-df = web.DataReader(user_input, data_source='yahoo', start='2012-01-01', end='2021-11-18')
+df = web.DataReader(user_input, data_source='yahoo', start='2012-01-01', end='2022-01-12')
 
 
 #Describe Data
