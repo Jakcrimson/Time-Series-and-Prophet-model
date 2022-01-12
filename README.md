@@ -23,4 +23,22 @@ prophet_stock_pred.py -> jupyter notebook where i'm trying out the facebook prop
 
 requirements.txt -> the librairies you need to run the app and the notebooks.
 
+## How to install Prophet 
+In order to install prophet and run the app.py script we'll need to to the following commands : (Windows & Anaconda)
+
+conda create -n time_series python=3.8
+conda activate time_series
+conda install libpython m2w64-toolchain -c msys2
+conda install numpy cython -c conda-forge
+conda install matplotlib scipy pandas -c conda-forge
+conda install pystan -c conda-forge
+conda install -c anaconda ephem
+
+pip install scikit-learn
+pip install --user pmdarima
+
+conda install -c conda-forge prophet
+
+And it should be good to go !
+
 ALL FILES RELATED TO STOCKER.PY / STOCKER.CPYTHON-36.PYC ARE TO BE IGNORED THEY WILL BE DELETED SOON.
